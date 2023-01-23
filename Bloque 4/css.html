@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS: Ejemplo</title>
+    <!--primer ejemplo de CSS: estilo interno (no es la forma más práctica porque lo ideal es tener una hoja de CSS para todos los htmls que armemos -- ahora deshabilitado con la notación y pasado a la hoja de estilos)
+        <style>
+            p {
+                color: red;
+                width: 400px;
+            }
+
+            h1 {
+                font-weight: bold;
+                color: gray;
+                font-family: fantasy;
+            }
+    </style>
+    segundo: inline (aplicado en el elemento en esta página)-->
+    <!--abajo: link para aplicar la hoja de estilos del proyecto a este html. la url en href puede ser absoluta o relativa (al documento sobre el que estamos laburando)-->
+    <link rel="stylesheet" type="text/css" href="CSS/estilos.css" />
+    <!-- las tipografías custom sacadas de google fonts se agregan acá en formato link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section>
+        <h1>Este es mi título</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac nulla et mauris pretium vestibulum. Quisque ut velit gravida, condimentum neque at, bibendum orci. Curabitur feugiat lectus eget congue sagittis. Fusce tristique orci at enim interdum, sed porttitor neque lacinia. Praesent at dui quis velit molestie placerat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla in lectus et nibh condimentum laoreet non eget lectus. Nullam vitae ultricies lacus. Cras pretium eleifend augue, a condimentum libero rutrum sodales. Vivamus vitae erat efficitur, dapibus libero eget, venenatis augue. Ut vitae aliquet neque, vitae aliquam odio. Ut sodales nec nulla ac ultricies. Curabitur ullamcorper erat sit amet pharetra rhoncus.
+            </p>
+            <p>            Duis placerat ut massa eu aliquam. Sed non elit vehicula, dapibus nisl ac, luctus turpis. Sed eleifend nibh id nisl dictum fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vivamus posuere metus placerat, iaculis est sit amet, ullamcorper augue. Donec dictum arcu vel elit scelerisque, sit amet hendrerit lectus convallis. Nam non orci eu dui sollicitudin consequat malesuada ac diam. Fusce sit amet nunc pharetra, sagittis enim tristique, lacinia orci. Donec semper, libero et commodo hendrerit, nisl quam egestas dui, at aliquet ligula arcu a nibh.
+            </p>
+            <p>            Ut at porttitor erat. Sed lacinia, leo ac auctor scelerisque, tortor sem venenatis nibh, eu posuere dui libero vitae orci. Sed maximus lacus at nibh ultrices sodales. Curabitur dolor dui, gravida at varius eu, cursus quis dolor. Praesent id volutpat orci. Maecenas eget neque id dolor dapibus posuere non rhoncus leo. Donec luctus convallis risus.
+            </p>
+            <p>            Suspendisse nec volutpat turpis, nec pharetra lacus. Pellentesque et lobortis erat. Sed in orci eros. Praesent viverra diam ut ullamcorper pharetra. Fusce eu rutrum tortor, eget dapibus velit. Praesent a semper enim, eu faucibus felis. Ut sagittis condimentum sapien. Nullam mauris velit, porta sed mauris id, venenatis bibendum libero. Nam vel consectetur purus, sit amet fringilla odio. Fusce ac bibendum risus. Vestibulum mattis est massa, ac rutrum est dapibus eget. Donec condimentum lorem mi, pulvinar vulputate est lobortis vitae. Morbi tempor tempor tortor, non pharetra purus elementum eu. Praesent egestas posuere tellus sit amet malesuada. Vestibulum volutpat mattis nunc, non volutpat velit pharetra nec. Sed rhoncus in est a hendrerit.
+            </p>
+            <p>            Vivamus interdum augue at laoreet lobortis. Sed fringilla tortor sit amet magna viverra, ac tempus ipsum finibus. Praesent eleifend finibus sapien, a ornare diam finibus ut. Ut auctor vitae nibh sagittis bibendum. Nam neque nibh, porttitor sit amet est quis, auctor laoreet urna. Nulla facilisi. In hac habitasse platea dictumst. Nunc pellentesque velit sapien, quis gravida metus rutrum in. Suspendisse posuere urna tempus, tempus nisi tincidunt, ullamcorper velit. Pellentesque eget nisi quis nulla facilisis accumsan ut ut tellus.
+            </p>  
+
+    </section>
+    
+    <p id="miparrafo">Hay tres formas de trabajar CSS. Primer ejemplo (<style></style>dentro del elemento head es *dentro del html*)</p>
+
+    <p class="estaesmiclase">nota 1: 3 notaciones distintas para el color: HEXA (hexadecimal), escala de RGB y NOMBRE</p>
+
+    <p class="estaesmiclase">la consola de chrome muestra en un costado los estilos aplicados</p>
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+responsive labura con html y css, NO javascript.
+responsive es cuando se usa CSS y HTML para que el contenido se vea joya en todos lados.
+
+"¿Qué propiedades se deben aplicar para que las imágenes no se deformen cuando trabajamos en responsive?
+max-width: 100%; height: auto; "
+
+viewport define el area visible de una página web. Nos ayuda desde html a definir cuál es el ancho que queremos tomar en función de nuestro dispositivo web.
+notas: nunca permitir scroll lateral en las páginas
+
+Grid-View: pensar las webs en forma de grilla / columnas. por lo general, las grid-responsive-web tienen 12 columnas al 100%
+
+Breakpoints: son anchos customizables que determinan cómo se ve el layout de tu página a través de varios dispositivos.
+
+media query: aplican estilos según el tamaño de la pantalla. consisten de un tipo de medio opcional y una o más expresiones de características de mediios.
+varias consultas se pueden combinar utilizando operadores lógicos. No distinquen entre mayúsculas y minúsculas.
+
+sintaxis:
+
+@media (max-width: 600px) {
+  .facet_sidebar {
+    display: none;
+  }
+}
+
+esta clase sólo se aplica a dispositivos cuyo ancho máximo tengan 600px
+
+con los media query hay que establecer parámetros para cada tipo de pantalla, dispositivo, etc. lleva mucho tiempo, cobrar caro. DICHO ESO
+frameworks. Librerías con todas estas características hechas. 
+
+bootstrap: trabaja con clases predefinidas (class infix) para diferentes tipos de dimensiones. (ejemplo: >=576% = class "sd")
+la grilla de bootstrap tiene 12 columnas

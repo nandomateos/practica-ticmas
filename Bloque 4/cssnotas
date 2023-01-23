@@ -1,0 +1,17 @@
+CSS nos permite aplicar los estilos que queramos de manera selectiva a los elementos del html.
+Ejemplo de sintaxis: h1 {color:blue; font-size:12px} 
+h1=selector
+color=propiedad
+blue=valor
+color:blue=declaración
+
+los selectors indican a qué se le aplica estilo (h1, h2, p, etc). El selector * elige a todo el documento.
+css: es hoja de estilos en cascada. Los elementos con propiedades específicas le ganan a los estilos aplicados arriba en la escala.
+usar coma entre elementos en el css agrega otros a los cuales se les aplican las propiedades
+
+atributo ID: un valor que se usa para identificar un elemento específico para aplicarle otros valores/propiedades específicas
+classes: parecido a ID, pero se puede aplicar a varios elementos. recomendado trabajar con ID y Classes inicialmente y no caer en modificar un solo elemento y usarlo en todo el proyecto.
+nota: con los selectors se pueden aclarar las condiciones en las cuales aplicar las propiedades (onda: aplicar X estilo a *todos los h1 dentro de un section*)
+
+fuentes: chusmear cuales son las familias de fuentes. Para trabajar con fuentes externas en el proyecto, se las importa al mismo usando el link (en el ejemplo de la clase, generado desde google fonts)
+unidades de medida: px: pixeles / em: unidad de medida 1 em = tamaño de fuente actual / rem: unidad de medida 1 rem = tamaño de fuente del body / porcentual

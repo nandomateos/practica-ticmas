@@ -1,0 +1,13 @@
+existen herramientas de versionado para poder guardar los cambios anteriores en un proyecto/codigo/etc
+versionado con GIT: permite versionar el proyecto, registrando los cambios introducidos dentro de cada archivo, quién y cuándo lo hizo.
+
+COMO
+se inicializa un repo con
+
+$git init 
+$git config user.name "nombre"
+$git config user.email "mail@mail.com"
+
+cuando estés listo para agregar archivos al repositorio, para agregarlos lo hacés en una zona de índice, para finalizar con la confirmación:
+git add .
+git commit -m "este es nuestro primer commit"

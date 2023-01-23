@@ -1,0 +1,11 @@
+Algunos atributos para anotar
+<strong> para negrita
+<a> para hipervínculos
+<div> para contenedores
+<button> para botones
+    atributos: disabled (deshabilitado), type (tipo de boton - button, reset, submit), title, name.
+<input> entradas (casillas)
+    atributos: disabled (deshabilitado), value (valor que tiene el input), type (tipo de input - text, checkbox, number, password, radio, email).
+<label> para etiquetas
+    atributos: for (vincula la label con un valor id)
+<span> a investigar
