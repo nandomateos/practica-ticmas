@@ -10,4 +10,6 @@ $git config user.email "mail@mail.com"
 
 cuando estés listo para agregar archivos al repositorio, para agregarlos lo hacés en una zona de índice, para finalizar con la confirmación:
 git add .
-git commit -m "este es nuestro primer commit"
+git commit -m "este es nuestro primer commit" (el título del comment debería ser descriptivo)
+
+comandos a anotar: git diff nombredelarchivo (muestra las diferencias entre una version y otra)
