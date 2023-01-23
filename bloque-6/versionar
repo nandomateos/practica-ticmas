@@ -15,3 +15,5 @@ git commit -m "este es nuestro primer commit" (el título del comment debería s
 comandos a anotar: 
 git diff nombredelarchivo (muestra las diferencias entre una version y otra)
 git blame nombredelarchivo (muestra las modificaciones con detalle dentro del archivo mismo)
+git log (muestra los cambios de commits) (genera una serie de COMMIT IDs de los cuales se referencian siempre los primeros 7 números del ID)
+git show primerossietecaracteresdelcommitid (muestra los cambios de un commit determinado)
