@@ -12,4 +12,6 @@ cuando estés listo para agregar archivos al repositorio, para agregarlos lo hac
 git add .
 git commit -m "este es nuestro primer commit" (el título del comment debería ser descriptivo)
 
-comandos a anotar: git diff nombredelarchivo (muestra las diferencias entre una version y otra)
+comandos a anotar: 
+git diff nombredelarchivo (muestra las diferencias entre una version y otra)
+git blame nombredelarchivo (muestra las modificaciones con detalle dentro del archivo mismo)
