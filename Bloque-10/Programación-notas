@@ -1,0 +1,9 @@
+Variables: es un elemento dentro del mundo de la programación que permite guardar valores para usarlos más adelante en el algoritmo.
+Cuando se le da un valor a una variable, se almacena en la memoria.
+
+tipos de datos en js: numeros: con punto flotante, decimales y enteros; string: cadena de caracteres (texto por ejemplo); booleano: tipo de dato lóigico, cuyos posibles valores son tru o false; undefined: tipo de dato de una variable a la cual no se le asigno un valor; null: ausencia de valor.
+cada tipo de dato tiene ciertas operaciones asociadas, por ejemplo: a los numeros se les aplican operaciones básicas matemáticas, a los booleanos se les aplican operadores lógicos
+
+js es un lenguaje no tipado.
+
+definir las variables con un nombre que corresponda y contextualize
