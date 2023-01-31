@@ -1,0 +1,24 @@
+js es un lenguaje orientado a objetos.
+VARIABLES: es la instrucción para crear una variable y asignarle un valor en JS. Como toda instrucción termina en ; como limitador.
+
+como regla general: siempre declarar las variables con const. Si creo que la variable va a cambiar, entonces usar let .
+
+las variables tienen que ser identificadores únicos. No podemos declarar una variable/función que comience con
+1. números
+2. caracteres especiales
+3. palabras reservadas de js (como var o function)
+
+debemos hacerlo con:
+
+1. Guión bajo
+2. Signo dolar
+3. Cualquier palabra que no rompa con las dos primeras reglas
+
+las variables son Case Sensitive. si hay una mayúscula y una minúscula no son la misma variable.
+
+en JS: comentario de varias líneas: 
+/*
+*
+*
+*
+*/
