@@ -19,5 +19,10 @@ function myFunction2() {
 
 function fontsizeless() {
         document.getElementById("body").style.fontSize = '10px';
+        
+}
 
+function fontsizemore() {
+        document.getElementById("body").style.fontSize = '20px';
+        
 }
