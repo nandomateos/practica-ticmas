@@ -1,0 +1,12 @@
+
+json: es un formato de texto para transportar y almacenar datos.
+se pueden representar los tipos básicos de datos de JS.
+
+    Clave: string que identifica una propiedad
+    Valor: asignado a una propiedad. Una de: string, number, boolean, null, array o Object.
+
+    JSON.Parse: convertir string a objeto
+    JSON.Stringify: convertir objeto a string
+
+ejemplo de un string de JSON: tres propiedades
+    '{"name":"John", "age":30, "car":null}'

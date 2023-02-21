@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link id="theme" rel="stylesheet" type="text/css" href="CSS/1.css" />
+    <title>Proyecto Final Argentina Programa 4.0- Fernando Mateos</title>
+    
+</head>
+<body>
+  <header>
+    <div class="container-fluid p-5 bg-primary text-white text-center">
+      <h1>My First Bootstrap Page</h1>
+      <p>Resize this responsive page to see the effect!</p> 
+    </div>
+  </header>
+  <div id="body" class="mystyle1">
+    <div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel nibh sed ante porttitor venenatis sit amet ut ligula. Fusce consequat eleifend iaculis. Vivamus mattis ullamcorper felis. Aenean egestas interdum pulvinar. Quisque quis vehicula felis. Nam lorem erat, pellentesque non ligula ut, molestie lobortis libero. Nulla aliquet nisl et diam maximus efficitur. Nam consectetur cursus odio nec aliquam.
+      Nam volutpat ligula eget felis pharetra maximus. Aenean et tristique nulla. Proin quis hendrerit elit. Fusce sagittis suscipit efficitur. Quisque odio tortor, vestibulum id lorem imperdiet, efficitur commodo turpis. Quisque tortor libero, finibus ac blandit non, tempor et ligula. Sed congue urna aliquet dui laoreet euismod. Vivamus bibendum dictum libero vel tempus.
+      Donec ac enim risus. Donec erat turpis, blandit ut mauris non, iaculis lacinia lorem. Sed laoreet nec tortor vel aliquam. Aliquam in neque tempor, sollicitudin orci vitae, blandit magna. Donec vulputate sapien vitae nisi efficitur feugiat. Sed placerat eget est vel cursus. Aliquam tempor vulputate tortor vitae finibus. Sed varius eros nunc, a tempor urna consectetur a. Nam nec nibh pellentesque, dictum ante in, porttitor velit. Vivamus egestas feugiat tellus a vulputate. Nullam efficitur facilisis quam sed ultrices. Duis in congue augue. Vivamus bibendum augue gravida, consectetur mi porta, feugiat leo. In sed mauris eros. Phasellus metus urna, ultricies sed diam at, auctor pulvinar purus.
+      Nulla a lectus rhoncus, fringilla nunc eget, dictum nulla. Vestibulum porttitor dapibus urna consequat tincidunt. Suspendisse malesuada, arcu eget aliquet tristique, risus lectus dignissim mi, fringilla auctor nisl ex sit amet mi. Donec odio quam, accumsan sed varius ac, venenatis ut arcu. Etiam nisl dui, dignissim ut neque eu, pretium feugiat ante. Suspendisse potenti. Integer eu quam molestie, luctus eros eget, tempus eros. Nullam sit amet neque vitae quam euismod efficitur. Duis non laoreet quam. Aenean facilisis nulla at metus feugiat malesuada.
+      Pellentesque vel laoreet lectus. Curabitur venenatis, enim a cursus ornare, purus elit tristique sem, at placerat ex orci sit amet velit. Praesent odio nunc, dapibus ut massa at, dignissim pretium elit. Curabitur ut purus sit amet magna eleifend posuere. Cras consectetur, erat et consequat scelerisque, nulla dolor accumsan sem, fermentum rhoncus massa est sit amet lorem. Nullam mauris lacus, sagittis ut tellus ut, fringilla rhoncus libero. Mauris id aliquam ipsum.</p>
+      <p><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">here</a></p>
+    </div>
+    <div id="light" class="white_content1"><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">Close</a>
+      <div>
+        <p>Opciones</p>
+      </div>
+      <div>
+        <p>Tamaño <button id="smaller" type="button" onclick="fontsizeless()">-</button><button id="bigger" type="button" onclick="changeSizeByBtn(25)">+</button></p>
+
+        <p>Estilo</p> <button id="style1" type="button" onclick="myFunction1()">1</button> <button id="style2" type="button" onclick="myFunction2()">2</button> 
+
+        <p>Música <button id="on" type="button">Sí</button> <button id="off" type="button">No</button></p>
+      </div>
+    </div>
+    <div id="fade" class="black_overlay"></div>
+  </div>
+  <script src="js/function.js"></script>
+  <footer>
+    <p>chau</p>
+  </footer>
+</body>
+</html>

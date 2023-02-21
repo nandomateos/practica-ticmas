@@ -1,0 +1,4 @@
+
+el objeto localStorage nos permite guardar pares clave/valor en el navegador
+    *almacena datos sin fecha de vencimiento
+    *los datos almacenados no se eliminan cuando se cierra el navegador y están disponibles en futuras sesiones

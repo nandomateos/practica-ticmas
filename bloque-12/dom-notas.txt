@@ -1,0 +1,30 @@
+DOM: Document Object Model
+
+Cuando se carga una página web, el navegador crea un modelo de objeto de  documento de la página.
+el modelo HTML DOM se construye como un arbol de objetos:
+
+Document:
+    
+    Root Element: <HTML>
+
+             Element: <Head>
+
+                    Element: <title>
+
+                            Element: "My title" 
+
+            Element: <body>
+
+                    Element: <a>
+
+                        Text: "My link"
+                        Atribute: "href"
+
+                    Element: <h1>
+
+                        Text: "My header"
+
+
+Con el modelo de objetos, JS obtiene todo el poder que necesita para crear HTML dinámico:
+    puede cambiar todos los elementos y los atributos HTML de una página
+    puede cambiar todos los estilos 
