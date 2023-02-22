@@ -25,21 +25,26 @@
       Pellentesque vel laoreet lectus. Curabitur venenatis, enim a cursus ornare, purus elit tristique sem, at placerat ex orci sit amet velit. Praesent odio nunc, dapibus ut massa at, dignissim pretium elit. Curabitur ut purus sit amet magna eleifend posuere. Cras consectetur, erat et consequat scelerisque, nulla dolor accumsan sem, fermentum rhoncus massa est sit amet lorem. Nullam mauris lacus, sagittis ut tellus ut, fringilla rhoncus libero. Mauris id aliquam ipsum.</p>
       <p><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">here</a></p>
     </div>
+  </div>
     <div id="light" class="white_content1"><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">Close</a>
-      <div>
-        <p>Opciones</p>
-      </div>
-      <div>
-        <p>Tamaño</p>
-        <p><button id="smaller" type="button" onclick="fontsizeless()">-</button><button id="bigger" type="button" onclick="fontsizemore()">+</button></p>
-        <p>Estilo</p>
-        <p><button id="style1" type="button" onclick="myFunction1()">1</button> <button id="style2" type="button" onclick="myFunction2()">2</button> </p>
-        <p>Música</p>
-        <p><button id="on" type="button">Sí</button> <button id="off" type="button">No</button></p>
+      <p>Opciones</p>
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <p>Tamaño</p>
+            <p>Estilo</p>
+            <p>Música</p>
+          </div>
+          <div class="col-6">
+            <p><button id="smaller" type="button" onclick="increaseFontSize('body', -1)">-</button><button id="bigger" type="button" onclick="increaseFontSize('body', 1)">+</button></p>
+            <p><button id="style1" type="button" onclick="myFunction1()">1</button> <button id="style2" type="button" onclick="myFunction2()">2</button> </p>
+            <p><button id="on" type="button">Sí</button> <button id="off" type="button">No</button></p>
+          </div>
+        </div>
       </div>
     </div>
-    <div id="fade" class="black_overlay"></div>
-  </div>
+  <div id="fade" class="black_overlay"></div>
+  
   <script src="js/function.js"></script>
   <footer>
     <p>chau</p>
