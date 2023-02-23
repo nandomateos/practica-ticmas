@@ -1,5 +1,5 @@
 
-.mystyle1 {
+.mystyle2 {
     background-color: blue;
     color: beige;
 }
@@ -17,7 +17,7 @@
     opacity:.80;
     filter: alpha(opacity=80);
 }
-.white_content1 {
+.white_content2 {
     display: none;
     position: fixed;
     left: 50%;
@@ -36,12 +36,12 @@
     text-align: center;
 }
 
-.mystyle2 {
+.mystyle1 {
     background-color: beige;
     color: blue;
 }
 
-.white_content2 {
+.white_content1 {
     display: none;
     position: fixed;
     left: 50%;
