@@ -10,14 +10,24 @@
     <p id="demo">
 
     </p>
-    <script>
+    <!--<script>
         const persona = '{"nombre":"Fernando", "edad":30, "nacionalidad":"Argentino"}';
         const obj = JSON.parse(persona);
         console.log(obj);
         document.getElementById("demo").innerHTML =
-        "Nombre: "+obj.Nombre+
+        "Nombre: "+obj.nombre+
         "Edad: "+obj.edad+
         "Nacionalidad: "+obj.nacionalidad;
-    </script>
+    </script>-->
+
+<script>
+    const url = 'https://randomuser.me/api/';
+    const obj = JSON.parse(url);
+    console.log(obj);
+    document.getElementById("demo").innerHTML =
+    "Nombre: "+obj.name+
+    "Edad: "+obj.age+
+    "Nacionalidad: "+obj.nacionalidad;
+</script>
 </body>
 </html>
