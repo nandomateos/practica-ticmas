@@ -2,19 +2,34 @@
 function myFunction1() {
         var element = document.getElementById("body");
         element.classList.add("mystyle1")
-        element.classList.remove("mystyle2");
+        element.classList.remove("mystyle2")
+        element.classList.remove("mystyle3");
         var element = document.getElementById("light")
         element.classList.add("white_content1")
-        element.classList.remove("white_content2");
+        element.classList.remove("white_content2")
+        element.classList.remove("white_content3");
 }
 
 function myFunction2() {
         var element = document.getElementById("body");
         element.classList.add("mystyle2")
-        element.classList.remove("mystyle1");
+        element.classList.remove("mystyle1")
+        element.classList.remove("mystyle3");
         var element = document.getElementById("light")
         element.classList.add("white_content2")
-        element.classList.remove("white_content1");
+        element.classList.remove("white_content1")
+        element.classList.remove("white_content3");
+}
+
+function myFunction3() {
+        var element = document.getElementById("body");
+        element.classList.add("mystyle3")
+        element.classList.remove("mystyle1")
+        element.classList.remove("mystyle2");
+        var element = document.getElementById("light")
+        element.classList.add("white_content3")
+        element.classList.remove("white_content1")
+        element.classList.remove("white_content2");
 }
 
 function increaseFontSize(id, increaseFactor){
